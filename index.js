@@ -1,3 +1,5 @@
+
+//NAVBAR
 const hamburger_menu = document.querySelector('.bars');
 const mobile_nav = document.querySelector('.mobile-nav');
 
