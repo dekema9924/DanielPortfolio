@@ -16,55 +16,56 @@
                     <p>Daniel</p>
                 </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="social">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                    <i class="fa-brands fa-github fa-xl"></i>
+                    <a class="link-clicked"  href="https://www.linkedin.com/in/daniel-ekema-44ba39225/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    <a class="link-clicked" href="https://github.com/dekema9924" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
                 <div class="line">
                     <img class="bars" src="./images/bars-solid.svg" alt="">
                 </div>
             </nav>
             <ul class="mobile-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a class="link-clicked" href="#home">Home</a></li>
+                <li><a class="link-clicked" href="#about">About</a></li>
+                <li><a class="link-clicked" href="#projects">Projects</a></li>
+                <li><a class="link-clicked" href="#skills">Skills</a></li>
+                <li><a class="link-clicked" href="#contact">Contact</a></li>
                 <div class="social-mobile">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <button class="mobile-resume-btn">Resume</button>
+                    <a class="link-clicked"  href="https://www.linkedin.com/in/daniel-ekema-44ba39225/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    <a class="link-clicked" href="https://github.com/dekema9924" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#contact"><button class="btn link-clicked">Contact</button>
+                    </a>
                 </div>
 
             </ul>
         </header>
 
          <!-- about-section -->
-        <div class="intro-section">
+        <div class="intro-section" id="home">
             <div class="pfp">
                 <img src="./images/pfp.JPG" alt="">
             </div>
 
             <div class="intro-text">
                 <h3>A Web Developer / FullStack Developer</h3>
-                <!-- <p>Hello, I'm Daniel, an IT student based in Atlanta GA,
-                    Im very energetic and passionate about bringing my ideas to life.
-                </p> -->
-
                 <blockquote>"<span>In the midst of chaos,there is also opportunity</span> --Sun Tzu"</blockquote>
-        
+                <button class="btn"><a href="https://docs.google.com/document/d/1dbGNaEWTKLXIEXBW7S_SDJRbWiVX15xI/edit?usp=sharing&ouid=113761548471156375971&rtpof=true&sd=true">Resume</a>
+                </button>
+
             </div>
         </div>
     </div>
 
-    <main>
-        <span class="know-me">INTRODUCTION</span>
+    <main id="about">
+        <span class="about-me">INTRODUCTION</span>
         <h2>ABOUT ME</h2>
-        <div class="know-me-flex-row">
+        <div class="about-me-flex-row">
             <div class="hire-me">
                 <p>My name is  <span>Daniel Ekema</span>, I'm 23 and a senior Information
                     Technology Student based in Atlanta GA. 
@@ -73,7 +74,7 @@
                 </p>
                 <p>
                     Outside of my regular school and work activities, I'm into soccer
-                    and art. I also enjoy playing video games in my free time.
+                    and art. I also enjoy playing video games on my free time.
                 </p>
                 <hr>
                 <hr>
@@ -81,21 +82,159 @@
                 
             </div>
             <div class="about-me-img">
-                <img class="daniel" src="./images/daniel-10_26_23-74_Original.jpg" alt="">
+                <img class="daniel" src="./images/daniel-10_26_23-74_Original.jpg" alt="pfp-img">
                 <div class="icons">
-                    <img src="./images/icons/css.png" alt="">
-                    <img src="./images/icons/javascript-levis-logo-transparent-23.png" alt="">
-                    <img src="./images/icons/icons8-sql-50.png" alt="">
-                    <img src="./images/icons/football.JPG" alt="">              
+                    <img src="./images/icons/css.png" alt="css-icon">
+                    <img src="./images/icons/javascript-levis-logo-transparent-23.png" alt="js-icon">
+                    <img src="./images/icons/icons8-sql-50.png" alt="sql-icon">
+                    <img src="./images/icons/football.JPG" alt="me-img">              
                 </div>
             </div>
         </div>
        
     </main>
     <!-- projects section -->
+    <div class="projects-container" id="projects">
+        <h4>Track My Progress With Me</h4>
+        <span class="project-span">My Projects</span>
+
+      <div class="projects-flex">
+            <div class="projects">
+                <div class="project-img"><img src="./images/projects/todo.png"alt="todo-img"></div>
+                <div class="project-description">
+                    <h2>To-Do</h2>
+                    <p>Practice in setting up a Full Stack CRUD application from scratch.
+                        This is a Basic todo application, Able to get add and delete tasks.
+                        Built with Js MongoDb Express with other NPM modules
+                    </p>
+                    <a href="https://crud-6i42.onrender.com/" target="_blank">Demo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+
+            <div class="projects">
+                <div class="project-img"><img src="./images/projects/Eccomerce.jpg" alt="eccomerce-site-img"></div>
+                <div class="project-description">
+                    <h2>Frontend Mentor - E-commerce product page</h2>
+                    <p>
+                        A fully responsive e-commerce website, with maximum compatibility, built using HTML, CSS, and JavaScript.
+                    </p>
+                    <a href="https://dekema9924.github.io/Eccommerce-site/" target="_blank">Demo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+    
+            </div>
+
+            <div class="projects">
+                <div class="project-img"><img src="./images/projects/LoginForm.png"alt="login-form-img"></div>
+                <div class="project-description">
+                    <h2>FullStack Login Form</h2>
+                    <p>
+                        A full-stack login and register form using node js and MongoDB database. implemented password hashing for secure logins using bycrypt. 
+                    </p>
+                    <a href="https://loginform-5nuc.onrender.com/" target="_blank">Demo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+    
+            </div>
+      </div>
+    </div>
+
+    <!-- skills page -->
+    <div class="skills-page" id="skills">
+        <span class="skills-span">TECHNOLOGY</span>
+        <h4>Languages, Frameworks & Libraries</h4>
+
+        <div class="skills">
+            <div class="skills-box">
+                <span>FRONTEND</span>
+               <table>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-html-48.png" alt="html-icon"></td>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-javascript-48.png" alt="js-icon"></td>
+                        <td>JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-css-48.png" alt="css-icon"></td>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/1174949_js_react js_logo_react_react native_icon.png" width="50px" alt="react-icon"></td>
+                        <td>React</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-bootstrap-48.png" alt="Bootstrap-icon"></td>
+                        <td>Bootstrap</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="skills-box">
+                <span>BACKEND</span>
+               <table>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-nodejs-48.png" alt="nodejs-icon"></td>
+                        <td>NodeJs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/mongodb (1).png" width="50px" alt="mongodb-icon"></td>
+                        <td>MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-sql-file-64.png" width="50px" alt="sql-icon"></td>
+                        <td>Sql</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-postgresql-48.png" alt="PostgreSql-icon"></td>
+                        <td>PostgreSql</td>
+                    </tr>
+               </table>
+
+            </div>
+
+            <div class="skills-box">
+                <span>TOOLS</span>
+               <table>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-git-48.png" alt="git-icon"></td>
+                        <td>Git</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-github-100.png" width="50px" alt="github-icon"></td>
+                        <td>gitHub</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/skills-icons/icons8-visual-studio-code-48.png" alt="Visual studio-icon"></td>
+                        <td>Visual Studio</td>
+                    </tr>
+               </table>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- contact-section -->
+    <div class="contact" id="contact">
+        <section>
+            <img src="./images/email.png" width="70px" alt="email-icon">
+            <h3>Id love to hear from You</h3>
+        </section>
+
+        <form action="mailto:danekema9924@gmail.com" method="post" enctype="multipart/form-data">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Message">
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
 
 
-  </div>
+    </div>
+
+
+
 <script src="index.js"></script>  
 </body>
 </html>
