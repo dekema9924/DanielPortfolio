@@ -7,16 +7,15 @@
 <!-- Intro  -->
 <h3 align="center">
         <samp>&gt; Hey There!, I am
-                <b><a target="_blank" href="https://alsiam.com">Daniel Ekema</a></b>
+                <b>Daniel Ekema</b>
         </samp>
 </h3>
 
 
 <p align="center"> 
   <samp>
-    <a href="https://www.google.com/search?q=Al+Siam">「 Google Me 」</a>
     <br>
-    「 I am a full stack web application developer from <b>United States</b> 」
+    「 I am a full stack web application developer residing in the <b>United States</b> 」
     <br>
     <br>
   </samp>
@@ -32,7 +31,7 @@
   
  ✌️ &emsp; Enjoy to do programming and sharing knowledge <br/><br/>
  ❤️ &emsp; Love to writing code and learning new features<br/><br/>
- 💬 &emsp; Enjoy watching and playing football
+ 💬 &emsp I enjoy watching and playing football  in my free time.
 
 </p>
 
